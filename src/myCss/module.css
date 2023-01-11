@@ -1,0 +1,45 @@
+
+.module_com {
+    /* border: 2px solid green; */
+    width: 380px;
+    position: relative;
+    top: 65px;
+    left: 800px;
+}
+
+.module {
+    padding-top: 30px;
+    /* border: 1px solid red; */
+    height: 420px;
+}
+.module .mod__btn {
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.module  hr{
+    opacity: 0.4;
+}
+
+.module_com .module h2 {
+    font-size: 1.5rem;
+    color: rgb(251 255 189);
+    margin: 20px;
+}
+.module_com .sel_mod {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(251 255 189);
+    font-size: 1.18em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.109);
+    margin-top: 50px;
+    width: 90%;
+    border: 1px solid white;
+    padding: 13px 0px;
+    border-radius: 25px;
+}

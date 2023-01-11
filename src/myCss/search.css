@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+.search{
+    width: 85%;
+    margin: auto;
+  
+    /* color: white; */
+    display: grid;
+    grid-template-rows: 125px 500px;
+
+}
+.search .search_header{
+    font-size: 1.3rem;
+    padding-left: 25px;
+    padding-right: 70px;
+    /* background-color: red; */
+    background-color: #3a2929e3;
+    color: rgb(251 255 189);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.search .search_header form{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.search .search_header input{
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 1.5px;
+    color: rgb(251 255 189);
+    font-weight: 10px;
+    padding: 10px 15px ;
+    font-size: 1.6em;
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid rgb(251 255 189);;
+}
+.search .search_header button{
+    font-size: 1.3em;
+    padding: 9px 10px ;
+    background-color: rgba(251, 255, 189, 0.672);
+    border-radius: 20px;
+}
+.search .search_header button:active{
+    background-color: rgba(251, 255, 189, 0.802);
+}
+.search .search_body{
+    background-color: #db76321b;
+    overflow-y: scroll;
+    /* border: 2px solid red; */
+}
+.search .search_body .mod_all_div{
+    color:rgba(251, 255, 189, 0.872);
+    font-size: 2rem;
+    padding: 12px 35px;
+    padding-left: 15px;
+    margin: 15px;
+    margin-left: 30px;
+    background-color: #4027278a;
+    border: 0.6px solid rgba(251, 255, 189, 0.702) ;
+    width: 75%;
+    border-radius: 20px;
+}
+.search .search_body div:hover{
+    background-color: #3a2929c5;
+    cursor: pointer;
+}
+.search .search_body h3{
+    font-weight: 200;
+    padding: 10px 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(251 255 189);
+
+}

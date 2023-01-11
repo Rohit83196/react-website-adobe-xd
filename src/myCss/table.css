@@ -1,0 +1,98 @@
+
+.primary{
+    width: 85%;
+    height: 650px;
+    margin: auto;
+  
+    color: white;
+    display: grid;
+    grid-template-rows: 125px auto;
+
+}
+.primary .header{
+    font-size: 1.3rem;
+    padding-left: 25px;
+    padding-right: 70px;
+    /* background-color: red; */
+    background-color: #3a2929e3;
+    color: rgb(251 255 189);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary .table{
+    display: grid;
+    grid-template-rows: 85px 430px;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.primary .table .t_head{
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+.primary .table .t_head div{
+    color: rgb(251 255 189);
+    background-color: #1a1313a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.172);
+}
+.primary .table .t_head .tab_btn{
+    font-size: 1.2rem;
+    color: rgb(251 255 189);
+    background-color: #1a1313a6;
+    outline: none;
+    border: none;
+    width: 100%;
+    display: block;
+  
+    /* margin: 0;  */
+}
+.primary .table .t_head .tab_btn:focus{
+    background-color: #cc3636ef;
+    /* background:none; */
+}
+.tab_btn h1{
+    margin: 15px;
+}
+.primary .table .t_body{
+    background-color: #db76321b;
+    /* background-color: rgba(255, 255, 255, 0.01); */
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.primary .table .t_body .t_img img {
+    padding: 50px ;
+    padding-top: 40px;
+    padding-right: 0;
+    padding-bottom: 0;
+    height: 400px;
+    width: 570px;
+    opacity: 0.9;
+}
+.primary .table .t_body .t_data  {
+    padding: 50px ;
+    padding-right: 70px ;
+    /* padding-right: 0; */
+    padding-bottom: 0;
+    height: 400px;
+    width: 570px;
+}
+.primary .table .t_body .t_data h1 {
+    /* padding: 100px; */
+    /* margin: 10px; */
+    color: rgb(251 255 189);
+    /* color: rgb(249, 251, 215); */
+    font-size: 2.7em;
+}
+.primary .table .t_body .t_data p {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-top: 18px;
+    line-height: 35px;
+    font-weight: 300;
+    font-size: 1rem;
+}

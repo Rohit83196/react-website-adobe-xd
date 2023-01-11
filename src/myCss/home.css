@@ -1,0 +1,47 @@
+
+.home_com{
+    /* border: 2px solid green; */
+    width: 380px;
+    position: relative;
+    top: 65px;
+    left: 800px;
+}
+.home{
+    /* border: 1px solid red; */
+    height: 420px;
+}
+.home_com .home h1{
+   
+                color: rgb(251 255 189);
+         background-color: #f7f2f21a;
+    /* color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
+    font-size: 2.8rem;
+}
+.home_com .home p{
+    color: rgba(255, 255, 255, 0.772);  
+         color: rgb(255, 255, 255);
+
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-top: 18px;
+    line-height: 35px;
+    font-size: 0.8rem;
+}
+.home_com .home_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(251 255 189);
+    font-size: 1.18em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.109);
+    margin-top: 50px ;
+    width: 90%;
+    border: 1px solid white;
+    padding: 13px 0px;
+    border-radius: 25px;
+}
+.home_com .home_btn span{
+    letter-spacing: 5px;  
+}

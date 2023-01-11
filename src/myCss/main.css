@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button  :hover {
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+}
+
+.main::before {
+    content: "";
+    background-image: url('../img/9.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.98;
+    z-index: -1;
+}
+
+
+.chat_icon {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    color: rgba(247, 250, 201, 0.625);
+}
+
+.chat_icon:hover {
+    color: rgba(251, 255, 189, 0.997);
+
+}
+
+.home_icon {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: rgba(251, 255, 189, 0.701);
+}
+
+.home_icon:hover {
+    color: rgba(251, 255, 189, 0.997);
+}
+
+
